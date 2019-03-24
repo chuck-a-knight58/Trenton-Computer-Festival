@@ -32,10 +32,11 @@ https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
 #### Recommended Reading
 
 [Practical Python Design Patterns: Pythonic Solutions to Common Problems 1st ed. Edition](https://www.amazon.com/Practical-Python-Design-Patterns-Solutions/dp/1484226798)
+<br>
 [PEP8 Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
 
-
+```
 #### A Python Easter Egg
 
 [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
@@ -63,3 +64,4 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 >>>
+```
