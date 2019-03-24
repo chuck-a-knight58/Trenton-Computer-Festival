@@ -36,9 +36,9 @@ https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
 [PEP8 Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
 
-```
 #### A Python Easter Egg
 
+```
 [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import this
