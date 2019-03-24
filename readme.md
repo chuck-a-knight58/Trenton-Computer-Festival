@@ -1,4 +1,4 @@
-Introduction to Python (repeat of 2018 talk)
+#### Introduction to Python (repeat of 2018 talk)
 
 Python is a very powerful programming language used in a variety of engineering and scientific settings.
 Its popularity has spread in recent years mainly due to its ease of use and large collection of support libraries.
@@ -15,7 +15,7 @@ https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
 
 
 
-Pythonic Object Oriented Development
+#### Pythonic Object Oriented Development
 
 Object-Oriented Programming is a widely used concept to write powerful applications in many languages.
 
