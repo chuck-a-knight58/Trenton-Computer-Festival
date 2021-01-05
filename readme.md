@@ -1,4 +1,4 @@
-#### Introduction to Python (repeat of 2018 talk)
+#### Introduction to Python
 
 Python is a very powerful programming language used in a variety of engineering and scientific settings.
 Its popularity has spread in recent years mainly due to its ease of use and large collection of support libraries.
@@ -32,7 +32,6 @@ https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
 #### Recommended Reading
 
 [Practical Python Design Patterns: Pythonic Solutions to Common Problems 1st ed. Edition](https://www.amazon.com/Practical-Python-Design-Patterns-Solutions/dp/1484226798)
-<br>
 [PEP8 Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
 
