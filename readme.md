@@ -13,6 +13,7 @@ https://github.com/chuck-a-knight58/Trenton-Computer-Festival
 Notebooks published to and hosted on Binder are available for in browser use 
 https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
 
+Double click the file "Introduction to Python.ipynb" once Jupyter starts.
 
 
 #### Pythonic Object Oriented Development
@@ -26,7 +27,9 @@ Jupyter notebook is here
 https://github.com/chuck-a-knight58/Trenton-Computer-Festival 
 
 Notebooks published to and hosted on Binder are available for in browser use 
-https://mybinder.org/v2/gh/chuck-a-knight58/Trenton-Computer-Festival/master
+https://hub.gke2.mybinder.org/user/chuck-a-knight5-mputer-festival-ky02tcig/notebooks/Pythonic%20Object%20Oriented%20Development.ipynb
+
+Double click the file "Pythonic Object Oriented Development.ipynb" once Jupyter starts.
 
 
 #### Recommended Reading
