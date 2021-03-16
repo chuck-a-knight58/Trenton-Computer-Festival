@@ -1,3 +1,5 @@
+[Trenton Computer Festival 2012](https://tcf-nj.org/)
+
 #### Introduction to Python
 
 Python is a very powerful programming language used in a variety of engineering and scientific settings.
@@ -31,10 +33,13 @@ https://hub.gke2.mybinder.org/user/chuck-a-knight5-mputer-festival-ky02tcig/note
 
 Double click the file "Pythonic Object Oriented Development.ipynb" once Jupyter starts.
 
+A more comprehensive list of special methods can be found in special-method-names.htm
+
 
 #### Recommended Reading
 
 [Practical Python Design Patterns: Pythonic Solutions to Common Problems 1st ed. Edition](https://www.amazon.com/Practical-Python-Design-Patterns-Solutions/dp/1484226798)
+
 [PEP8 Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
 
