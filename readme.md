@@ -35,6 +35,29 @@ Double click the file "Pythonic Object Oriented Development.ipynb" once Jupyter 
 
 A more comprehensive list of special methods can be found in special-method-names.htm
 
+#### Program your EV using Python and ODB-II
+
+With Python and a simple $20 bluetooth device you can gain access to your electric vehicles real-time sensor data using its OBD-II vehicle ports. During this seminar we'll show you how to:
+
+* Setup and configure your python environment
+* Access your vehicles trouble codes
+* Access realtime data about your vehicle
+* Perform simple hacks to the operation of your vehicle
+
+Jupyter Notebook is here
+TBD
+
+Notebooks published to and hosted on Binder
+TBD
+
+Double click the file "Program your EV using Python and ODB.ipynb" once Jupyter starts.
+
+Resources
+https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II
+https://forscan.org/forum/viewtopic.php?f=5&t=836 (software for Ford vehicles)
+https://github.com/Ircama/ELM327-emulator (an ELM327 emulator)
+https://icculus.org/obdgpslogger/obdsim.html
+https://github.com/brendan-w/python-OBD
 
 #### Recommended Reading
 
