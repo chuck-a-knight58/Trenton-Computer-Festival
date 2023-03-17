@@ -44,8 +44,8 @@ With Python and a simple $20 bluetooth device you can gain access to your electr
 * Access realtime data about your vehicle
 * Perform simple hacks to the operation of your vehicle
 
-Jupyter Notebook is here
-TBD
+Jupyter notebook is here 
+https://github.com/chuck-a-knight58/Trenton-Computer-Festival 
 
 Notebooks published to and hosted on Binder
 TBD
