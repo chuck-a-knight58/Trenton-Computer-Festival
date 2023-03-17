@@ -47,8 +47,7 @@ With Python and a simple $20 bluetooth device you can gain access to your electr
 Jupyter notebook is here 
 https://github.com/chuck-a-knight58/Trenton-Computer-Festival 
 
-Notebooks published to and hosted on Binder
-TBD
+Notebook not published to or hosted on Binder since it has unique requirements
 
 Double click the file "Program your EV using Python and ODB.ipynb" once Jupyter starts.
 
