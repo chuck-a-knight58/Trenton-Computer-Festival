@@ -57,36 +57,31 @@ Required packages:
     pip install obd
     pip install ELM327-emulator
 
-##### What is OBD
-
-On-board diagnostics (OBD) is a term referring to a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or repair technician access to the status of the various vehicle sub-systems. The amount of diagnostic information available via OBD has varied widely since its introduction in the early 1980s versions of on-board vehicle computers. Early versions of OBD would simply illuminate a malfunction indicator light (MIL) or "idiot light" if a problem was detected, but would not provide any information as to the nature of the problem. Modern OBD implementations use a standardized digital communications port to provide real-time data in addition to a standardized series of diagnostic trouble codes, or DTCs, which allow a person to rapidly identify and remedy malfunctions within the vehicle.
-
-OBD-II provides access to data from the engine control unit (ECU) and offers a valuable source of information when troubleshooting problems inside a vehicle. The SAE J1979 standard defines a method for requesting various diagnostic data and a list of standard parameters that might be available from the ECU. The various parameters that are available are addressed by "parameter identification numbers" or PIDs which are defined in J1979. For a list of basic PIDs, their definitions, and the formula to convert raw OBD-II output to meaningful diagnostic units, see OBD-II PIDs. Manufacturers are not required to implement all PIDs listed in J1979 and they are allowed to include proprietary PIDs that are not listed. The PID request and data retrieval system gives access to real time performance data as well as flagged DTCs. For a list of generic OBD-II DTCs suggested by the SAE, see Table of OBD-II Codes. Individual manufacturers often enhance the OBD-II code set with additional proprietary DTCs.
-
-https://en.wikipedia.org/wiki/OBD-II_PIDs
-
 ##### Setup and Initial Connection
 
-    To enable the preconfigured set of OBD service requests of a Toyota Auris Hybrid car, run the emulator with the -s car option:
+    Terminal Window 1
+
+        Start jupyter notebook and navigate to the 'Program your EV using Python and ODB.ipynb' notebook:
+
+            $ jupyter notebook
+            ... navigate within the browser ...
+
+    Terminal Window 2
+
+        Start the ELM327-emulator enabling a preconfigured set of OBD service requests of a Toyota Auris 
+        Hybrid car, run the emulator with the -s car option:
     
-        python -m elm -s car
+            python -m elm -s car
 
-    Verify the port the emulator is using to communicate on. This port should be used
-    when creating a OBD communications object for querying the car's OBD system. Normally, this package would scan for any active bluetooth or serial connections and automatically use them:
+        Verify the port the emulator is using to communicate on. This port should be used
+        when creating a OBD communications object for querying the car's OBD system. 
+        Normally, this package would scan for any active bluetooth or serial connections 
+        and automatically use them:
 
-        CMD> port
-        Using pseudo-tty port "/dev/pts/2".
+            CMD> port
+            Using pseudo-tty port "/dev/pts/nnn".
 
-    Test your connection:
-
-        import obd
-        connection = obd.OBD("/dev/pts/2")
-        cmd = obd.commands.SPEED
-        response = connection.query(cmd)
-        print(response.value)
-
-##### Data Organization
-
+    Test your connection using the jupyter notebook
 
 Resources
 https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II
